@@ -19,3 +19,5 @@ Not working:
 ```shell
  sbt +test
 ```
+
+> FIXED: `Test / fork := true` fixed the problem.

@@ -9,6 +9,7 @@ lazy val scala213 = "2.13.10"
 ThisBuild / crossScalaVersions := List(scala213, scala212, scala211)
 ThisBuild / releaseCrossBuild := true
 ThisBuild / scalaVersion := scala213
+Test / fork := true
 
 
 lazy val root = (project in file("."))
